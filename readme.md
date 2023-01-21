@@ -61,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Potifolio website] <a name="about-project"></a>
 
 > This project is Developing portifolio using HTML and CSS. I selected template three from Microverse.
-> In this project, Mobile first and Desktop version using Css has been implemented.
+> In this project, Mobile first and Desktop version using Css has been implemented. It will have popup modal next.
 
 **[Portifolio website]** is a the main mechansium to introduce you self to the world market in software development and related field of works.
 
