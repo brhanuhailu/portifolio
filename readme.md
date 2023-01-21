@@ -61,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Potifolio website] <a name="about-project"></a>
 
 > This project is Developing portifolio using HTML and CSS. I selected template three from Microverse.
-> In this project, Mobile first using Css has been implemented.
+> In this project, Mobile first and Desktop version using Css has been implemented.
 
 **[Portifolio website]** is a the main mechansium to introduce you self to the world market in software development and related field of works.
 
@@ -98,9 +98,9 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+> Find the deployment link the live demo.
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://brhanuhailu.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -121,7 +121,9 @@ In order to run this project you need:
 Example command:
 
 ```sh
- gem install rails
+ git
+ vs-code
+ browser
 ```
  -->
 
@@ -134,7 +136,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone https://github.com/brhanuhailu/portifolio.git
 ```
 --->
 
@@ -209,9 +211,9 @@ Example:
 
 > Add javascript.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] Contact details
+- [ ] Contains project lists
+- [ ] Frameworks
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -221,7 +223,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/brhanuhailu/portifolio/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -251,7 +253,7 @@ I would like to thank Microverse organization
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/brhanuhailu/portifolio/blob/main/LICENSE) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
