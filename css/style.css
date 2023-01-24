@@ -29,6 +29,7 @@
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
+  width: 327px;
   font-size: 20px;
   line-height: 28px;
   color: #28352f;
@@ -174,6 +175,7 @@
   width: 327px;
   height: 474px;
   background: #ebf0ee;
+  background-color: #008552;
   border: 1px solid #d0d9d4;
   border-radius: 8px;
 }
@@ -181,6 +183,7 @@
 .img-card img {
   width: 327px;
   height: 252px;
+  border-radius: 4px;
 }
 
 .work-detail {
@@ -237,7 +240,7 @@
 }
 
 .card-btn button {
-  background-color: #36b37f;
+  background-color: green;
   border-radius: 4px;
   align-self: center;
   border: none;
@@ -311,12 +314,12 @@
   width: 159px;
   height: 48px;
   padding: 12px;
-  background: #36b37f;
+  background: green;
   border-radius: 4px;
   border: none;
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 17px;
   line-height: 24px;
   text-align: center;
@@ -444,7 +447,7 @@
 .footer button {
   width: 129px;
   height: 48px;
-  background: #36b37f;
+  background: green;
   border-radius: 4px;
   align-self: center;
   border: none;
@@ -472,6 +475,27 @@
   line-height: 32px;
   align-self: center;
   color: #42526e;
+}
+
+@media (min-width: 481px) {
+  .header-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header-container button {
+    width: 100%;
+  }
+
+  .headline {
+    position: absolute;
+    height: 648px;
+    top: 68px;
+    background: white url(../images/header-illsutration-mobile.png) 100%;
+  }
 }
 
 @media (min-width: 768px) {
@@ -738,7 +762,7 @@
   }
 
   .abt-me button {
-    background: #36b37f;
+    background: green;
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -761,7 +785,7 @@
     gap: 10px;
     width: 129px;
     height: 48px;
-    background: #36b37f;
+    background: green;
     border-radius: 4px;
     flex: none;
   }
