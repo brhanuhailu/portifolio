@@ -12,7 +12,7 @@
 <body>
     <header class="header-container">
         <div class="logo">Welcome</div>
-        <button type="button"><i class="fa fa-bars" class="humberger"></i></button>
+        <button type="button" id="menu-bar"><i class="fa fa-bars"></i></button>
         <nav>
             <ul class="header-nav-desktop">
                 <li><a href="#">Portfolio</a></li>
@@ -20,6 +20,18 @@
                 <li><a href="#">Contract</a></li>
             </ul>
         </nav>
+        <div class="mobile-menu" id="menu-mobile">
+            <div class="menu-header">
+                <span class="close">&times;</span>
+            </div>
+            <div class="menu-body">
+                <ul>
+                    <li><a href="#work-id">Portfolio</a></li>
+                    <li><a href="#about-id">About</a></li>
+                    <li><a href="#contact-id">Contact</a></li>
+                </ul>
+            </div>
+        </div>
     </header>
     <section class="headline">
         <div class="head-title">
@@ -43,7 +55,7 @@
            <i class="fa fa-angle-down"></i>
         </div>
     </section>
-    <section class="work-container">
+    <section class="work-container"id="work-id">
         <h2 class="work-containerh">My Recent Works</h2>
         <img class="indicator"src="images/Indicator.png" alt="Work Indicator">
         <div class="work-card-container">
@@ -165,7 +177,7 @@
     </section>
     <!--end of work-->
     <!--about me section started-->
-    <section class="abt-me">
+    <section class="abt-me" id="about-id">
         <h2 class="abt-me-title">About me</h2>
         <p class="abt-detail">
             I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded,
@@ -209,7 +221,7 @@
   </section>
     <!--about me section ended-->
     <!--foote setction started-->
-    <section class="footer">
+    <section class="footer" id="contact-id">
         <div class="infos-container">
         <h2 class="left-side-footer">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h2>
         <form action="https://formspree.io/f/myyvbggy" class="footer-form" method="post">
@@ -231,9 +243,10 @@
             </ul>
         </div>
     </div>
-        <a class="footer-link" href="gmail.com">Hailubrhanu29@gmail.com</a>
+        <a class="footer-link" id="email" href="gmail.com">Hailubrhanu29@gmail.com</a>
     </section>
     <!--footer section ended-->
     <!--update index.html-->
+    <script src="index.js"></script>
 </body>
 </html>
