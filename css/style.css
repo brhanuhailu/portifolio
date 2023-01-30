@@ -16,6 +16,7 @@
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 600;
+  margin-top: 30px;
   font-size: 20px;
   line-height: 28px;
   color: #28352f;
@@ -30,6 +31,7 @@
   font-style: normal;
   font-weight: 600;
   width: 30px;
+  margin-top: 30px;
   margin-left: 150px;
   font-size: 20px;
   line-height: 28px;
@@ -70,6 +72,19 @@
   line-height: 52px;
   text-align: center;
   color: #172b4d;
+}
+
+.head-title h1 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  color: #172b4d;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .head-title span {
@@ -116,6 +131,7 @@
   font-size: 35px;
   color: #67798e;
   float: right;
+  margin-top: 62px;
   padding: 0 38px 0 0;
 }
 
@@ -133,6 +149,7 @@
 .menu-body {
   width: 100%;
   height: 184px;
+  margin-top: 70px;
 }
 
 .menu-body ul {
@@ -141,7 +158,7 @@
   align-items: center;
   gap: 8px;
   left: 28px;
-  top: 92px;
+  top: 110px;
   margin: 28px 0 0 1px;
   list-style: none;
 }
@@ -169,10 +186,10 @@
 
 .menu-body ul li {
   width: 351px;
-  height: 56px;
+  height: 50px;
   border-radius: 8px;
   margin-left: 28px;
-  margin-top: 40px;
+  margin-top: 10px;
   font-size: 24px;
   font-weight: 600;
   cursor: pointer;
@@ -185,6 +202,33 @@
   font-weight: 600;
   font-size: 32px;
   line-height: 44px;
+  color: #3a4a42;
+}
+
+.footer a {
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  align-self: center;
+  color: #42526e;
+}
+
+.menu-body ul li a {
+  height: 20px;
+  left: 0;
+  right: 68px;
+  top: calc(50% - 24px / 2);
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
   color: #3a4a42;
 }
 
@@ -552,18 +596,6 @@
 .footer button:focus {
   background: #008552;
   color: #fff;
-}
-
-.footer a {
-  text-align: center;
-  text-decoration: none;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
-  align-self: center;
-  color: #42526e;
 }
 
 .footer-form button:hover {
