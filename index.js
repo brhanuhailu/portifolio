@@ -138,7 +138,7 @@ workcards.innerHTML = `
                 </div>
             </div>
 `;
-//Made an array to store objects for the Work-card info.
+// Made an array to store objects for the Work-card info.
 const WorkDatas = [
   {
     id: 0,
