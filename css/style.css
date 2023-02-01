@@ -456,6 +456,7 @@
 
 .close-details:hover {
   background-color: blue;
+  width: 20px;
   cursor: pointer;
   color: rgb(0, 255, 13);
 }
