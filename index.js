@@ -258,14 +258,17 @@ for (let i = 0; i < buttons.length; i += 1) {
   });
 }
 // Form Validation
-const form = document.getElementById('formid');
-const email = document.getElementById('iemail');
-const lowerCaseRegex = /[A-Z]/;
 
-form.addEventListener('submit', (e) => {
-  if (lowerCaseRegex.test(email.value.trim())) {
-    e.preventDefault();
-    const errorMessage = 'Please, enter valid Email: lower case only.';
-    errorMessage.classList.remove();
+// Form Validation
+const formContact = document.querySelector('.footer-form');
+const emailval = document.querySelector('#iemail');
+const errormessage = document.querySelector('.errormessage');
+
+formContact.addEventListener('submit', (event) => {
+  const character = /[A-Z]/;
+  const emailvalidate = emailval.value;
+  if (character.test(emailvalidate)) {
+    errormessage.innerHTML = 'Your email shouln\'t contain block letters!';
+    event.preventDefault();
   }
 });
