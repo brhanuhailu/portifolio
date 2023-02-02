@@ -257,3 +257,15 @@ for (let i = 0; i < buttons.length; i += 1) {
     });
   });
 }
+// Form Validation
+const form = document.getElementById('formid');
+const email = document.getElementById('iemail');
+const lowerCaseRegex = /[A-Z]/;
+
+form.addEventListener('submit', (e) => {
+  if (lowerCaseRegex.test(email.value.trim())) {
+    e.preventDefault();
+    const errorMessage = 'Please, enter valid Email: lower case only.';
+    errorMessage.classList.remove();
+  }
+});
