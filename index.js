@@ -21,129 +21,11 @@ menu.onclick = function close() {
 };
 
 const workcards = document.querySelector('.work-card-container');
-workcards.innerHTML = `
-<div class="work-card">
-                <div class="img-card">
-                    <img src="./Images/Axum1.png" alt="axum oblesik Images for container">
-                </div>
-                <div class="work-detail">
-                    <div class="card-title">
-                        <p>Multi-Post Stories Gain+Glory</p>
-                    </div>
-                    <ul class="card-langauages">
-                        <li>Ruby on rails</li>
-                        <li>css</li>
-                        <li>JavaScript</li>
-                        <li>html</li>
-                    </ul>
-                    <div class="card-btn">
-                        <button class="see-project" type="button">See Project</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="work-card">
-                <div class="img-card">
-                    <img src="./Images/Axum1.png" alt="axum oblesik Images for container">
-                </div>
-                <div class="work-detail">
-                    <div class="card-title">
-                        <p>Multi-Post Stories Gain+Glory</p>
-                    </div>
-                    <ul class="card-langauages">
-                        <li>Ruby on rails</li>
-                        <li>css</li>
-                        <li>JavaScript</li>
-                        <li>html</li>
-                    </ul>
-                    <div class="card-btn">
-                        <button class="see-project" type="button">See Project</button>
-                    </div>
-                </div>
-            </div>
-            <div class="work-card">
-                <div class="img-card">
-                    <img src="./Images/Axum1.png" alt="axum oblesik Images for container">
-                </div>
-                <div class="work-detail">
-                    <div class="card-title">
-                        <p>Multi-Post Stories Gain+Glory</p>
-                    </div>
-                    <ul class="card-langauages">
-                        <li>Ruby on rails</li>
-                        <li>css</li>
-                        <li>JavaScript</li>
-                        <li>html</li>
-                    </ul>
-                    <div class="card-btn">
-                        <button class="see-project" type="button">See Project</button>
-                    </div>
-                </div>
-            </div>
-            <div class="work-card">
-                <div class="img-card">
-                    <img src="./Images/Axum1.png" alt="axum oblesik Images for container">
-                </div>
-                <div class="work-detail">
-                    <div class="card-title">
-                        <p>Multi-Post Stories Gain+Glory</p>
-                    </div>
-                    <ul class="card-langauages">
-                        <li>Ruby on rails</li>
-                        <li>css</li>
-                        <li>JavaScript</li>
-                        <li>html</li>
-                    </ul>
-                    <div class="card-btn">
-                        <button class="see-project" type="button">See Project</button>
-                    </div>
-                </div>
-            </div>
-            <div class="work-card">
-                <div class="img-card">
-                    <img src="./Images/Axum1.png" alt="axum oblesik Images for container">
-                </div>
-                <div class="work-detail">
-                    <div class="card-title">
-                        <p>Multi-Post Stories Gain+Glory</p>
-                    </div>
-                    <ul class="card-langauages">
-                        <li>Ruby on rails</li>
-                        <li>css</li>
-                        <li>JavaScript</li>
-                        <li>html</li>
-                    </ul>
-                    <div class="card-btn">
-                        <button class="see-project" type="button">See Project</button>
-                    </div>
-                </div>
-            </div>
-            <div class="work-card">
-                <div class="img-card">
-                    <img src="./Images/Axum1.png" alt="axum oblesik Images for container">
-                </div>
-                <div class="work-detail">
-                    <div class="card-title">
-                        <p>Multi-Post Stories Gain+Glory</p>
-                    </div>
-                    <ul class="card-langauages">
-                        <li>Ruby on rails</li>
-                        <li>css</li>
-                        <li>JavaScript</li>
-                        <li>html</li>
-                    </ul>
-                    <div class="card-btn">
-                        <button class="see-project" type="button">See Project</button>
-                    </div>
-                </div>
-            </div>
-`;
-// Made an array to store objects for the Work-card info.
 const WorkDatas = [
   {
     id: 0,
-    url: './images/project2.png',
-    title: 'Build React JS based Web Application',
+    url: './Images/project2.png',
+    title: 'Multi-Post Stories Gain+Glory',
     description: 'You will have to create a react js single web application with a front that seems like a blog website and should be also mobile-friendly and add some features like a mobile menu and the main thing here is the ability to navigate through pages ',
     tecnologies: {
       tech1: 'Ruby on rails',
@@ -156,7 +38,7 @@ const WorkDatas = [
   },
   {
     id: 1,
-    url: './images/project2.png',
+    url: './Images/project2.png',
     title: 'Building Tic Tac Toe in React',
     description: 'In this project, you will build a Tic Tac Toe game with three rows and columns as usually with two players start making X and O and the first who complete a line vertically or horizontally wins and they need to prevent each other and try yo check',
     tecnologies: {
@@ -171,7 +53,7 @@ const WorkDatas = [
   },
   {
     id: 2,
-    url: './images/project2.png',
+    url: './Images/project2.png',
     title: 'Keeping track of hundreds of components',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
     tecnologies: {
@@ -185,7 +67,7 @@ const WorkDatas = [
   },
   {
     id: 3,
-    url: './images/project4.png',
+    url: './Images/project4.png',
     title: 'Build a CryptoCurrency Tracker App',
     description: 'The idea is great and you can actually put this app into App Store or Google PlayStore as React Native allows you to create cross-platform apps. You can use React.js, React Native, and Firebase to build the course, where Firebase can be used ',
     tecnologies: {
@@ -199,7 +81,7 @@ const WorkDatas = [
   },
   {
     id: 4,
-    url: './images/project1.png',
+    url: './Images/project1.png',
     title: 'Keeping track of hundreds of components',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum is simply dummy text of the printing and typesetting industry',
     tecnologies: {
@@ -213,7 +95,7 @@ const WorkDatas = [
   },
   {
     id: 5,
-    url: './images/project2.png',
+    url: './Images/project2.png',
     title: 'Keeping track of hundreds of components',
     description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. ths helps you to avoid plagiarisum and support to respect the intellectual property right',
     tecnologies: {
@@ -226,6 +108,125 @@ const WorkDatas = [
     linksource: 'https://github.com/brhanuhailu/portifolio',
   },
 ];
+workcards.innerHTML = `
+<div class="work-card">
+                <div class="img-card">
+                    <img src="./Images/Axum1.png" alt="axum oblesik Images for container">
+                </div>
+                <div class="work-detail">
+                    <div class="card-title">
+                        <p>${WorkDatas[0].title}</p>
+                    </div>
+                    <ul class="card-langauages">
+                    <li>${WorkDatas[5].tecnologies.tech1}</li>
+                    <li>${WorkDatas[5].tecnologies.tech2}</li>
+                    <li>${WorkDatas[5].tecnologies.tech3}</li>
+                    <li>${WorkDatas[5].tecnologies.tech4}</li>
+                    </ul>
+                    <div class="card-btn">
+                        <button class="see-project" type="button">See Project</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="work-card">
+                <div class="img-card">
+                    <img src="./Images/Axum1.png" alt="axum oblesik Images for container">
+                </div>
+                <div class="work-detail">
+                    <div class="card-title">
+                        <p>${WorkDatas[0].title}</p>
+                    </div>
+                    <ul class="card-langauages">
+                    <li>${WorkDatas[4].tecnologies.tech1}</li>
+                    <li>${WorkDatas[4].tecnologies.tech2}</li>
+                    <li>${WorkDatas[4].tecnologies.tech3}</li>
+                    <li>${WorkDatas[4].tecnologies.tech4}</li>
+                    </ul>
+                    <div class="card-btn">
+                        <button class="see-project" type="button">See Project</button>
+                    </div>
+                </div>
+            </div>
+            <div class="work-card">
+                <div class="img-card">
+                    <img src="./Images/Axum1.png" alt="axum oblesik Images for container">
+                </div>
+                <div class="work-detail">
+                    <div class="card-title">
+                        <p>${WorkDatas[0].title}</p>
+                    </div>
+                    <ul class="card-langauages">
+                    <li>${WorkDatas[4].tecnologies.tech1}</li>
+                    <li>${WorkDatas[4].tecnologies.tech2}</li>
+                    <li>${WorkDatas[4].tecnologies.tech3}</li>
+                    <li>${WorkDatas[4].tecnologies.tech4}</li>
+                    </ul>
+                    <div class="card-btn">
+                        <button class="see-project" type="button">See Project</button>
+                    </div>
+                </div>
+            </div>
+            <div class="work-card">
+                <div class="img-card">
+                    <img src="./Images/Axum1.png" alt="axum oblesik Images for container">
+                </div>
+                <div class="work-detail">
+                    <div class="card-title">
+                        <p>${WorkDatas[0].title}</p>
+                    </div>
+                    <ul class="card-langauages">
+                    <li>${WorkDatas[3].tecnologies.tech1}</li>
+                    <li>${WorkDatas[3].tecnologies.tech2}</li>
+                    <li>${WorkDatas[3].tecnologies.tech3}</li>
+                    <li>${WorkDatas[3].tecnologies.tech4}</li>
+                    </ul>
+                    <div class="card-btn">
+                        <button class="see-project" type="button">See Project</button>
+                    </div>
+                </div>
+            </div>
+            <div class="work-card">
+                <div class="img-card">
+                    <img src="./Images/Axum1.png" alt="axum oblesik Images for container">
+                </div>
+                <div class="work-detail">
+                    <div class="card-title">
+                        <p>${WorkDatas[0].title}</p>
+                    </div>
+                    <ul class="card-langauages">
+                    <li>${WorkDatas[2].tecnologies.tech1}</li>
+                    <li>${WorkDatas[2].tecnologies.tech2}</li>
+                    <li>${WorkDatas[2].tecnologies.tech3}</li>
+                    <li>${WorkDatas[2].tecnologies.tech4}</li>
+                    </ul>
+                    <div class="card-btn">
+                        <button class="see-project" type="button">See Project</button>
+                    </div>
+                </div>
+            </div>
+            <div class="work-card">
+                <div class="img-card">
+                    <img src="./Images/Axum1.png" alt="axum oblesik Images for container">
+                </div>
+                <div class="work-detail">
+                    <div class="card-title">
+                        <p>${WorkDatas[0].title}</p>
+                    </div>
+                    <ul class="card-langauages">
+                        <li>${WorkDatas[0].tecnologies.tech1}</li>
+                        <li>${WorkDatas[0].tecnologies.tech2}</li>
+                        <li>${WorkDatas[0].tecnologies.tech3}</li>
+                        <li>${WorkDatas[0].tecnologies.tech4}</li>
+                    </ul>
+                    <div class="card-btn">
+                        <button class="see-project" type="button">See Project</button>
+                    </div>
+                </div>
+            </div>
+`;
+// Made an array to store objects for the Work-card info.
+
 const workdetailsSection = (content) => `
     <span class="close-details">&times;</span>
     <img class="imag-details" src=${WorkDatas[content].url} alt="Image details">
@@ -244,7 +245,6 @@ const workdetailsSection = (content) => `
  `;
 const buttons = document.querySelectorAll('.see-project');
 const workid = document.querySelector('#work-id');
-
 for (let i = 0; i < buttons.length; i += 1) {
   buttons[i].addEventListener('click', () => {
     const pop = document.createElement('div');
