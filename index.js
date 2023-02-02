@@ -257,7 +257,6 @@ for (let i = 0; i < buttons.length; i += 1) {
     });
   });
 }
-// Form Validation
 
 // Form Validation
 const formContact = document.querySelector('.footer-form');
