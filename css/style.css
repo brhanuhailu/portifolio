@@ -42,7 +42,7 @@
 }
 
 .work-container :hover {
-  transform: scale(101%);
+  transform: scale(100%);
 }
 
 .abt-card :hover {
@@ -208,7 +208,7 @@
 .detail-tags li {
   background: #ebf0ee;
   border-radius: 4px;
-  height: 32px;
+  height: 22px;
   padding: 6px 0;
 }
 
@@ -422,13 +422,20 @@
   margin: 16px;
 }
 
+.popcon {
+  position: relative;
+  width: 1440px;
+  height: 1406px;
+  background: #008552;
+}
+
 .popup-card {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   position: fixed;
+  left: 10;
   z-index: 1;
-  left: 0;
   top: 0;
   gap: 6px;
   padding: 16px;
@@ -440,25 +447,29 @@
   border-radius: 16px;
 }
 
-.popup-card img {
-  height: 220px;
-  max-width: 100%;
+.close-details {
+  position: absolute;
+  width: 25px;
+  height: 20px;
+  left: 315px;
+  top: 20px;
+  z-index: 1;
+  align-items: center;
+  background: none;
+  color: #fff;
+  font-size: 50px;
+  cursor: pointer;
 }
 
-.close-details {
-  font-size: 30px;
-  position: absolute;
-  top: 3%;
-  right: 8%;
-  background: none;
-  color: white;
+.imag-details {
+  width: 98%;
+  height: 220px;
+  border-radius: 8px;
 }
 
 .close-details:hover {
-  background-color: blue;
-  width: 20px;
   cursor: pointer;
-  color: rgb(0, 255, 13);
+  color: blue;
 }
 
 .img-details {
@@ -504,10 +515,11 @@
 }
 
 .project-desc {
-  width: 311px;
+  width: 325px;
   height: 313px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
+  text-align: justify;
   font-weight: 400;
   font-size: 16px;
   padding-top: 12px;
@@ -562,6 +574,7 @@
 .card-btn button:hover {
   background-color: #172b4d;
   color: #fff;
+  cursor: pointer;
 }
 
 .abt-me {
@@ -918,7 +931,7 @@
   }
 
   .work-containerh :hover {
-    transform: scale(102%);
+    transform: scale(101%);
     color: #36b37e;
   }
 
@@ -949,7 +962,7 @@
   }
 
   .work-card :hover {
-    transform: scale(102%);
+    transform: scale(100%);
   }
 
   .img-card {
@@ -1208,6 +1221,13 @@
     margin-top: 280px;
   }
 
+  .popcon {
+    position: relative;
+    width: 1440px;
+    height: 1406px;
+    background: #008552;
+  }
+
   .popup-card {
     position: fixed;
     padding: 16px;
@@ -1239,20 +1259,22 @@
     mix-blend-mode: normal;
     border-radius: 8px;
     position: relative;
-    left: calc(100% - 140px / 2 - 37.5px);
+    left: calc(100% - 160px / 2 - 37.5px);
     padding-left: 10px;
     width: 40px;
     height: 40px;
     right: 24px;
     top: 0;
-    color: #fff;
+    font-size: 30px;
+    color: #67798e;
     margin: 14px;
+    cursor: pointer;
   }
 
-  .close-details:hover {
+  /* .close-details:hover {
     cursor: pointer;
     color: #fff;
-  }
+  } */
 
   .img-details {
     width: 920px;
