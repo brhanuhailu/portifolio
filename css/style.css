@@ -749,6 +749,11 @@
   color: #fff;
 }
 
+.errormessage {
+  color: #f00;
+  font-family: 'Poppins', sans-serif;
+}
+
 @media (min-width: 768px) {
   .header-container {
     width: 760px;
