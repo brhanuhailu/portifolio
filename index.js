@@ -262,7 +262,8 @@ for (let i = 0; i < buttons.length; i += 1) {
 const formContact = document.querySelector('.footer-form');
 const emailval = document.querySelector('#iemail');
 const errormessage = document.querySelector('.errormessage');
-
+const fname = document.querySelector('#fname');
+const messages = document.querySelector('#isuggest');
 formContact.addEventListener('submit', (event) => {
   const character = /[A-Z]/;
   const emailvalidate = emailval.value;
@@ -271,3 +272,17 @@ formContact.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
+// preserve contact form
+formContact.addEventListener('input', () => {
+  const storeData = {
+    Name: fname.value,
+    Email: emailval.value,
+    Message: messages.value,
+  };
+  localStorage.setItem('refillForm', JSON.stringify(storeData));
+});
+
+const getData = JSON.parse(localStorage.getItem('refillForm'));
+fname.value = getData.Name;
+emailval.value = getData.Email;
+messages.value = getData.Message;
