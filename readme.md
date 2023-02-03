@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./Images/murple_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
 </div>
@@ -61,7 +61,7 @@ After you're finished please remove all the comments and instructions!
 # 📖 [Potifolio website] <a name="about-project"></a>
 
 > This project is Developing portifolio using HTML and CSS. I selected template three from Microverse.
-> In this project, Mobile first and Desktop version using Css has been implemented and deployed in github page. It will have popup modal next.
+> In this project, Mobile first and Desktop version using Css has been implemented and deployed in github page. It has been added popup modal for both mobile and Desktop screen.
 
 **[Portifolio website]** is a the main mechansium to introduce you self to the world market in software development and related field of works.
 
@@ -73,6 +73,7 @@ After you're finished please remove all the comments and instructions!
 
 - HTML
 - Css
+- JavaScript
 
 <details>
   <summary>Client</summary>
@@ -91,7 +92,8 @@ After you're finished please remove all the comments and instructions!
 - Provide infomration about the developers
 - Show about section pages and galary sections
 - Consist Cantact information form
-
+- Shows popup window that demostrate the livelink and source of the project
+- Shows the list of Projects done and to be done
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->

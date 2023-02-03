@@ -257,3 +257,17 @@ for (let i = 0; i < buttons.length; i += 1) {
     });
   });
 }
+
+// Form Validation
+const formContact = document.querySelector('.footer-form');
+const emailval = document.querySelector('#iemail');
+const errormessage = document.querySelector('.errormessage');
+
+formContact.addEventListener('submit', (event) => {
+  const character = /[A-Z]/;
+  const emailvalidate = emailval.value;
+  if (character.test(emailvalidate)) {
+    errormessage.innerHTML = 'Your email shouln\'t contain block letters!';
+    event.preventDefault();
+  }
+});
