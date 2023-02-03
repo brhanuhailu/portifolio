@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 const menu = document.getElementById('menu-mobile');
 const menubtn = document.getElementById('menu-bar');
 const closebar = document.getElementsByClassName('close')[0];
@@ -273,16 +274,22 @@ formContact.addEventListener('submit', (event) => {
   }
 });
 // preserve contact form
-formContact.addEventListener('input', () => {
-  const storeData = {
-    Name: fname.value,
-    Email: emailval.value,
-    Message: messages.value,
-  };
-  localStorage.setItem('refillForm', JSON.stringify(storeData));
+formContact.addEventListener('submit', () => {
+  if (fname.value !== '' && emailval.value !== '' && messages.value !== '') {
+    const storeData = {
+      Name: fname.value,
+      Email: emailval.value,
+      Message: messages.value,
+    };
+    localStorage.setItem('refillForm', JSON.stringify(storeData));
+    fname.value = '';
+    emailval.value = '';
+    messages.value = '';
+  }
 });
-
 const getData = JSON.parse(localStorage.getItem('refillForm'));
-fname.value = getData.Name;
-emailval.value = getData.Email;
-messages.value = getData.Message;
+if (getData) {
+  fname.value = getData.Name;
+  emailval.value = getData.Email;
+  messages.value = getData.Message;
+}
