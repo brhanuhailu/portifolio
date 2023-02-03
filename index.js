@@ -286,4 +286,4 @@ const getData = JSON.parse(localStorage.getItem('refillForm'));
 fname.value = getData.Name;
 emailval.value = getData.Email;
 messages.value = getData.Message;
-/*---------------------------------- End of Preserve data ----------------------*/
+/* ---------------------------------- End of Preserve data ---------------------- */
