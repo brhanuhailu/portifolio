@@ -1,3 +1,4 @@
+/* eslint-disable no-alert */
 const menu = document.getElementById('menu-mobile');
 const menubtn = document.getElementById('menu-bar');
 const closebar = document.getElementsByClassName('close')[0];
@@ -262,7 +263,8 @@ for (let i = 0; i < buttons.length; i += 1) {
 const formContact = document.querySelector('.footer-form');
 const emailval = document.querySelector('#iemail');
 const errormessage = document.querySelector('.errormessage');
-
+const fname = document.querySelector('#fname');
+const messages = document.querySelector('#isuggest');
 formContact.addEventListener('submit', (event) => {
   const character = /[A-Z]/;
   const emailvalidate = emailval.value;
@@ -271,3 +273,25 @@ formContact.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
+// preserve contact form
+formContact.addEventListener('submit', () => {
+  if (fname.value !== '' && emailval.value !== '' && messages.value !== '') {
+    const storeData = {
+      Name: fname.value,
+      Email: emailval.value,
+      Message: messages.value,
+    };
+    localStorage.setItem('refillForm', JSON.stringify(storeData));
+    fname.value = '';
+    emailval.value = '';
+    messages.value = '';
+  }
+});
+const getData = JSON.parse(localStorage.getItem('refillForm'));
+if (getData) {
+  fname.value = getData.Name;
+  emailval.value = getData.Email;
+  messages.value = getData.Message;
+}
+
+/* ---------------------------------- End of Preserve data ---------------------- */
